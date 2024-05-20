@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/dash">
+
+
+
+    <!-- Space at the top to push the image down a bit -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Circular Photo Frame -->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/circle_shape"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/logo" />
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <!-- Light Control Button -->
+    <Button
+        android:id="@+id/lightControlButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Control Lights"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@drawable/rectangle_1_shape"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Temperature Control Button -->
+    <Button
+        android:id="@+id/tempControlButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Control Temperature"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/rectangle_1_shape"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Security Control Button -->
+    <Button
+        android:id="@+id/securityControlButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="View Security Cameras"
+        android:textColor="@color/white"
+        android:background="@drawable/rectangle_1_shape"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Profile Button -->
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@drawable/rectangle_1_shape"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@drawable/rectangle_1_shape"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">E-Home Pro</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_yet_registered_signup_now">Not yet registered? SignUp Now</string>
+    <string name="v_0_1_292">v 0.1.292</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="already_have_account_try_login">Already Have Account? Try Login.</string>
+    <string name="already_an_user_try_login">Already an User? Try Login.</string>
+    <string name="rohan">Rohan</string>
+</resources>

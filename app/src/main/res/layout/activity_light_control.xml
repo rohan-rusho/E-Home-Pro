@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/light"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Circular Photo Frame -->
+    <!-- Button to connect to Bluetooth -->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/circle_shape"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/logo" />
+
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
+        android:text="Connect to Bluetooth"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_1_shape"
+        android:outlineProvider="background"
+        android:clipToOutline="true"
+        android:radius="20dp" />
+
+    <!-- Button to turn the light on -->
+    <Button
+        android:id="@+id/turnOnButton"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:textSize="18sp"
+        android:text="Turn On Light"
+        android:layout_below="@id/connectButton"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_2_shape"
+        android:outlineProvider="background"
+        android:clipToOutline="true"
+        android:radius="20dp" />
+
+
+    <!-- Button to turn the light off -->
+    <Button
+        android:id="@+id/turnOffButton"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:text="Turn Off Light"
+        android:textSize="18sp"
+        android:layout_below="@id/turnOnButton"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_1_shape"
+        android:outlineProvider="background"
+        android:clipToOutline="true"
+        android:radius="20dp" />
+
+
+</RelativeLayout>

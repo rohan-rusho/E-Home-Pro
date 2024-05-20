@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "319063406407",
+    "project_id": "e-home-pro",
+    "storage_bucket": "e-home-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319063406407:android:14093a0b9bf2dd738f7e62",
+        "android_client_info": {
+          "package_name": "com.example.e_homepro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQDn-4K6EQ5a3p0-oBbAh_ztU4MOAMMkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
